@@ -144,7 +144,7 @@ If you run configure again CMakeLists.txt will be parsed one more time and
 .. code-block:: none
   :emphasize-lines: 2
 
-  [minimal-with-message-master]> cmake -H. -B_builds
+  [minimal-with-message-master]> cmake -S . -B _builds
   Processing CMakeLists.txt
   -- Configuring done
   -- Generating done
